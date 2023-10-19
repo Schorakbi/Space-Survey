@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Space Survey Form</title> 
+  <meta charset='UTF-8'/>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+  <div class="heading">
+    <h1 id='title'>Space Survey Form</h1>
+    <p id='description'>It is all about space !</p>
+  </div>
+  <form>
+    <div id='content1'>
+      <label id='name-label' for='name'>Name:</label><br><br>
+      <input id='name' type='text' required placeholder='  Enter your name' class="box"><br><br>
+      <label id='email-label' for='email'>Email:</label><br><br>
+      <input id='email' type='email' required placeholder='  Enter your email' class="box"><br><br>
+      <label id='number-label' for='age'>Age (optional):</label><br><br>
+      <input id='age' type='number' min='13' max='120' placeholder='  Age' class="box"><br><br>
+      <label for="gender">What is your gender?</label><br><br>
+      <div id="option1">
+        <select id="gender" name="gender">
+          <option>Select Your Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+    <br>
+    <label>Which option best describes your current role?</label><br><br>
+    <div id="option2">
+      <select id="role" name="role">
+        <option>Select Your Role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer Not to say</option>
+        <option>Other</option>
+      </select>
+      <br><br>
+    </div>
+    <br>
+    <label id="head1">Can you envision a scenario where someone presents you with the opportunity to embark on a space voyage, knowing that there is a 50% chance of not returning alive? Would you dare to seize that chance?</label><br><br>
+    <input type='radio' name='radio' value='1' class='larger' />&nbsp;&nbsp;&nbsp;Yes<br><br>
+    <input type='radio' name='radio' value='2' class='larger' />&nbsp;&nbsp;&nbsp;Maybe<br><br>
+    <input type='radio' name='radio' value='3' class='larger' />&nbsp;&nbsp;&nbsp;Absolutely not<br><br>
+    <label id="head2">What's your favourite solar system planet?</label><br><br>
+    <div class="content2">
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Mercury</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Venus</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Earth</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Mars</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Jupiter</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Saturn</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Uranus</label><br><br>
+      <input type='checkbox' value='checkbox' class='larger'><label>&nbsp;&nbsp;&nbsp;Neptune</label><br><br>
+    </div>
+    <div class="content3">
+      <label for="favorite-planet">What is your favorite planet and why? (Describe it for us)</label><br>
+      <textarea id="favorite-planet" rows='10' cols='30' placeholder=' My favorite planet is...'></textarea>
+    </div>
+    <div class="btn">
+      <input type='submit' id='submit' value='Submit'>
+    </div>
+    </div>
+  </form>
+</body>
+</html>

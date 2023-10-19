@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(Images/Background5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 25px;
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#title {
+  font-size: 1.8em;
+}
+
+#description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#content1 {
+  width: 90%;
+  margin: auto;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 34px;
+  width: 54%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 60px;
+}
+form .box {
+  width: 98.5%;
+  height: 2.8em;
+  position: relative;
+  bottom: 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+#option1 select {
+  width: 98.5%;
+  height: 2.7em;
+  position: relative;
+  bottom: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#option2 select {
+  width: 98.5%;
+  height: 2.7em;
+  position: relative;
+  top: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#content2 {
+  margin-top: 10px;
+}
+.larger{
+  transform: scale(1.5);
+}
+.content3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 98.5%;
+
+}
+#submit{
+  position: relative;
+  top: 25px;
+  width: 98.5%;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #be3144;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:pointer ;
+}
+.btn{
+  padding-bottom: 5px;
+}
+@media screen and (max-width :600px){
+  form{
+    width: 100%;
+    margin: auto;
+  }
+}
